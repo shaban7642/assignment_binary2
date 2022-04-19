@@ -1,0 +1,30 @@
+.listContainer {
+    margin-top: 36px;
+    border-radius: 10px;
+}
+
+select {
+    width: 100px;
+    height: 17px;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    border: none;
+    color: #010937;
+
+    opacity: 0.7;
+    /* padding: 0 17px 0 39px; */
+    outline: none;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+}
+
+.select::after {
+    content: url('../../assets/icons/selectArrow.svg');
+    position: absolute;
+    top: 12px;
+    right: 33px;
+    pointer-events: none;
+}

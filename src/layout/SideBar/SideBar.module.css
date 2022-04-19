@@ -1,0 +1,11 @@
+.sidebarContainer {
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* overflow-x: scroll; */
+}
+
+.logo {
+    margin: 25px;
+}

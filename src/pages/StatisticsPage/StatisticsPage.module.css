@@ -1,0 +1,95 @@
+.pageContainer {
+}
+
+.topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.helloContainer h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #010937;
+    line-height: 30px;
+}
+
+.helloContainer p {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #010937;
+    opacity: 0.6;
+}
+
+.selectContainer {
+    position: relative;
+}
+
+.selectContainer select {
+    width: 204px;
+    height: 44px;
+    border: 1px solid rgba(1, 9, 55, 0.1);
+    border-radius: 10px;
+    font-weight: 450;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 0 17px 0 39px;
+    outline: none;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+}
+
+.selectContainer:after {
+    content: url('../../assets/icons/selectArrow.svg');
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    pointer-events: none;
+}
+
+.selectContainer:before {
+    content: url('../../assets/icons/ClenderIcon.svg');
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    pointer-events: none;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    overflow: wrap;
+}
+
+/* .cardsContainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* @media screen and (min-width: 1800px) {
+    .cardsContainer > div {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .cardsContainer > div > div {
+        margin-right: 36px;
+    }
+
+    .cardsContainer > div:last-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cardsContainer > div:last-child > div {
+        margin-right: 0px;
+    }
+} */

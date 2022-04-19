@@ -1,0 +1,14 @@
+.cardContainer {
+    margin-top: 36px;
+    background-color: #262d54;
+    border-radius: 10px;
+    min-width: 392px;
+}
+
+.line {
+    width: 278px;
+    height: 0px;
+    margin: auto;
+    opacity: 0.04;
+    border: 1px solid #ffffff;
+}

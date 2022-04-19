@@ -1,0 +1,28 @@
+.percent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.percent h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #f2f4fc;
+
+    opacity: 0.6;
+    margin-bottom: 0;
+    margin-left: 5px;
+}

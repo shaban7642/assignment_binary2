@@ -1,0 +1,62 @@
+.lineContainer {
+    padding: 0;
+    /* margin-top: 36px; */
+    /* width: 392px; */
+    /* height: 233px; */
+}
+h3 {
+    margin-bottom: 9px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    letter-spacing: 0.02em;
+
+    color: #010937;
+}
+
+.percent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.percentNumberWithBanck h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #f2f4fc;
+    opacity: 1;
+}
+
+.percent h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: #010937;
+
+    opacity: 0.6;
+}
+
+.percentNumber {
+    display: flex;
+    align-items: start;
+    /* justify-content: space-between; */
+}
+
+.percentNumber p {
+    margin-top: 8px;
+    margin-left: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #010937;
+
+    opacity: 0.3;
+}
